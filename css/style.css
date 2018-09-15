@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h1, 
+h2{
+  font-family: Lato, Helvetica, Arial, sans-serif;   
+}
+
+h1 {  
+    font-size: 5.625rem; /* 90px/16px  */
+}
+
+h2 {
+    font-size: 3.3125em; /* 53px/16px  */
+} 
+  
+.main-header{
+    padding-top: 170px;
+    text-align: center;
+    background: url('../img/cover.jpeg') no-repeat center;
+    background-size: cover;
+    color: white;
+    height: 750px;
+}
+
+.header-name{
+    
+}
