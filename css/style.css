@@ -1,10 +1,9 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-}
 
 h1, 
 h2{
@@ -20,14 +19,30 @@ h2 {
 } 
   
 .main-header{
-    padding-top: 170px;
+    padding-top: 220px;
     text-align: center;
-    background: url('../img/cover.jpeg') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../img/cover.jpeg') no-repeat center;
     background-size: cover;
-    color: white;
     height: 750px;
 }
 
 .header-name{
-    
+    letter-spacing: .3rem;
+    color: white;
+    text-transform: uppercase;   
+}
+
+.header-title{
+    letter-spacing: .3rem;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;   
+}
+
+@media(max-width: 768px){    
+    .main-header{
+      max-height: 380px;
+      padding: 50px 25px 0;
+    }
 }
